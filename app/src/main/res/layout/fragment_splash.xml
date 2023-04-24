@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleX="2.6"
+        android:scaleY="2.8"
+        android:src="@drawable/joe_biden" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="210dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get the latest news"
+            android:textSize="34dp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:id="@+id/text1"
+            tools:ignore="MissingConstraints" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="from"
+                android:id="@+id/text2"
+                android:layout_marginRight="10dp"
+                android:textSize="34dp"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="reliable sources"
+                android:textSize="34dp"
+                android:id="@+id/text3"
+                android:textColor="#F46767"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Skip"
+            android:layout_marginTop="40dp"
+            android:textColor="#F46767"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/skip"/>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_corner"
+            android:text="Next"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+</FrameLayout>
