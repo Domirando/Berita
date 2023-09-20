@@ -34,6 +34,7 @@ class HomeFragment : Fragment(), NewsTypeAdapter.OnItemClickListener, NewsCardAd
                 cardsAdapter = NewsCardAdapter(filteredList as MutableList<NewsCard>, this@HomeFragment)
                 binding.newsRv.adapter = cardsAdapter
             }
+//            sadf
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
 
